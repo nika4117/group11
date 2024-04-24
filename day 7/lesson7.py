@@ -1,7 +1,5 @@
 from turtle import *
 
-#square
-
 width(7)
 color("purple")
 begin_fill()
@@ -10,7 +8,7 @@ left(90)
 
 forward(200)
 left(90)
- 
+
 forward(200)
 left(90)
 
@@ -18,67 +16,66 @@ forward(200)
 left(90)
 end_fill()
 
-forward(70)
-
-#door
-
-color("yellow")
 begin_fill()
+
+forward(70)
+color("blue")
 left(90)
-forward(120)
+forward(120)   
 right(90)
 forward(60)
 right(90)
 forward(120)
 end_fill()
-
 penup()
 goto(200, 200)
 pendown()
 
-#roof
-
 color("red")
 begin_fill()
-right(150)
-forward(200)
-left(120)
-forward(200)
+right()
+forward()
+left()
+forward()
 end_fill()
+
 
 penup()
 goto(50, 160)
 pendown()
 
-#window 1
-
-color("yellow")
-begin_fill()
-left(30)
-forward(60)
-right(90)
-forward(30)
-right(90)
-forward(60)
-right(90)
-forward(30)
-end_fill()
 
 penup()
-goto(150, 160)
+goto(60, 220)
 pendown()
 
-#window 2
+color("blue")
+begin_fill()
+left(30)
+forward(30)
+right(90)
+forward(30)
+right(90)
+forward(30)
+right(90)
+forward(30)
+right(90)
+end_fill()
 
-color("yellow")
+
+penup()
+goto(170, 220)
+pendown()
+
+color("blue")
 begin_fill()
 forward(30)
 right(90)
-forward(60)
+forward(30)
 right(90)
 forward(30)
 right(90)
-forward(60)
+forward(30)
+right(90)
 end_fill()
 
-exitonclick()

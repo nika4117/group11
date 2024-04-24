@@ -12,5 +12,3 @@
 #        print(i)
 
 
-for i in range(6, 20 + 1, 6):
-    print(i)
